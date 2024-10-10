@@ -1,4 +1,5 @@
 # sql-finetune: text-to-SQL on a custom exoplanets database
+[/assets/tau-bootis-b.jpg](Tau Boötis b, Source: European Southern Observatory, CC BY 2.0 image)
 - The goal is to fine tune smaller LLMs on a specific database to get the models used to domain-specific language, adhere better to sqlite standard, and generate SQL that would answer questions about the database with increased accuracy.
   
 - A small custom dataset of 50 training examples and 10 validation examples was created based on https://www.kaggle.com/datasets/adityamishraml/nasaexoplanets/data. sqlite table exoplanets was made from the data, along with a reference_planets table made by inserting (name, mass) VALUES ('Jupiter', 1.898e27) and (name, mass) VALUES ('Earth', 5.972e24). The mass_wrt column in exoplanets maps to the mass column in reference_planets, allowing for more complex queries involving joins.  The data is now available at dpv/exoplanets-sql.
