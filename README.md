@@ -1,5 +1,5 @@
 # sql-finetune: text-to-SQL on a custom exoplanets database
-![Tau Boötis b](assets/tau-bootis-b.jpg)
+<img src="assets/tau-bootis-b.jpg" alt="Tau Boötis b" width="600" />
 
 *Tau Boötis b, Source: European Southern Observatory, CC BY 2.0 image*
 - The goal is to fine tune smaller LLMs on a specific database to get the models used to domain-specific language, adhere better to sqlite standard, and generate SQL that would answer questions about the database with increased accuracy.
