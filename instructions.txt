@@ -1,4 +1,0 @@
--- Preprocess 
-CUDA_VISIBLE_DEVICES="" python -m axolotl.cli.preprocess lora.yml
--- Launch
-accelerate launch -m axolotl.cli.train lora.yml
