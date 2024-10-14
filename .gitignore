@@ -162,3 +162,12 @@ cython_debug/
 #.idea/
 Fine_tune_llama3b_sql.ipynb
 Fine_tune_CodeLlama_7b_Instruct_step_by_step.ipynb 
+cache-*
+cleaned_5250.csv
+events.out.*
+wandb-metadata*
+model-0*
+run-*
+state.json
+*.pt 
+*.pth 
